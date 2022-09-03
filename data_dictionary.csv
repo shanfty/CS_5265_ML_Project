@@ -1,0 +1,33 @@
+Feature,Description
+Year,What year the car model was made in. Stander 4 digit number. Make as an Int
+Make,"The dealer of the car, who created the company. No spaces, One '-' for Mercedes-Benz."
+Model,"The model of the car, Spaces and dashes used numbers as well. Includes trim level, so 911 carrera is different from 911 carrera GT"
+Used/New,"Used or certified from a dealer (make), IE. Dodge certified. Should remove the brand and just call it certified since we already have a make field"
+Price,"Price of the car following this format $xxx,xxx"
+ConsumerRating,Rating that the consumer of the car has given it on the cars.com website. 0.0 - 5
+ConsumerReviews,How many reviews consumers have given. Straight number no commas
+SellerType,"Sold from a dealer or private individual, 2 string options,"
+SellerName,"The name of the Seller, can be pretty long with the dealer names."
+SellerRating,The rating the seller gives to the vehicle 0.0 - 5
+SellerReviews,"how many reviews the seller has given, no commas"
+StreetName,"The Street of where the vehicle is being sold, probably can remove since we have the state"
+State,The state code of where the vehicle is being sold. For example: MI for michigan
+Zipcode,the zipcode where the car is being sold. Split between digits and some are listed in characters. Fix or remove those.
+DealType,"A cars.com classification if the vehicle price is considered a good deal or not. Fair, good, great, N/A"
+ComfortRating,The rating of the comfortability for the vehicle 0.0 - 5
+InteriorDesignRating,The rating of the design and feel for the inside of the vehicle 0.0 - 5
+PerformanceRating,the rating for the performance of the vehicle from 0.0 - 5
+ValueForMoneyRating,A rating from 0.0 - 5 on how good of a car you are getting versus the price
+ExteriorStylingRating,The rating of the exterior looks of the vehicles from 0.0 -5
+ReliabilityRating,How reliable the vehicle is from 0.0 - 5
+ExteriorColor,"The exterior color the car is. Spaces and dashs, some weird characters, some numbers as well"
+InteriorColor,The interior color of the car. Spaces and slashes in the string.
+Drivetrain,"Whether the vehicle is front-wheel, four-wheel, rear-wheel or all-wheel. Some listed as FWD, RWD, AWD, 4WD. Pick either and make them the same. Some weird characters need to be removed"
+MinMPG,1 to 3 digit number describing the min miles per galon of the vehicle when driving
+MaxMPG,1 to 3 digit number describing the max miles per galon of the vehicle when driving
+FuelType,"There are really 4 types, Gasoline, desiel, hybrid, electric. Anything else needs to be put into these categories."
+Transmission,"What type of transmissions the vehicle is running on, String with spaces, dashes, slashes and parenthesis"
+Engine,"What type of engine is in the vehicle. Numbers and letters, slashes and spaces"
+VIN,"The Vehicle Identification number every one is different, might not need this at all. Standard 17 digit number comibination."
+Stock#,"The stock number of the vehicle, Probably do not need this either. Number & Letter combinations."
+Mileage,"How many miles are the vehicle has already been driven, up to 6 numbers no commas."
